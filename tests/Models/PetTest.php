@@ -31,6 +31,7 @@ class PetTest extends TestCase
     {
         $pet = new \MyApp\Models\Pet();
         $this->assertEquals('Woof', $pet->getVoice());
+        
     }
 
 }
